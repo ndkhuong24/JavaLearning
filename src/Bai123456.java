@@ -1,4 +1,4 @@
-public class Main { // class có thể hiểu là định nghĩa của đối tượng, public là phạm vi truy cập
+public class Bai123456 { // class có thể hiểu là định nghĩa của đối tượng, public là phạm vi truy cập
     public static void main(String[] args) { // main là điểm khởi đầu của dự án nó sẽ chạy bắt đầu từ main, bắt buộc phải có public ở đây để JVM có thể đọc đc mail
 //        ///Bài 1: Hello Java
 //        String name = "Nguyễn Duy Khương";
