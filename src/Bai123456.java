@@ -31,7 +31,7 @@ public class Bai123456 { // class có thể hiểu là định nghĩa của đ�
 //        System.out.println(ab3 - bb3);
 //        System.out.println(ab3 * bb3);
 //        System.out.println(ab3 / bb3); //ab3 và bb3 đều là số nguyên nên nó sẽ lấy phần nguyên bỏ đi phần còn lại
-//        System.out.println(ab3 % bb3); // lấy phần dư 10/3=3 dư 1System.out.println(ab3 + bb3);
+//        System.out.println(ab3 % bb3); // lấy phần dư 10/3=3 dư 1
 
 //        System.out.println(ab3 ++ );
 //        System.out.println(ab3 -- );
