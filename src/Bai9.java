@@ -1,6 +1,6 @@
 public class Bai9 {
     public static void main(String[] args) {
-        int[] numbers = {10, 20, 30, 40, 50};
+//        int[] numbers = {10, 20, 30, 40, 50};
 //        int sum = 0;
 //        //in phần tử đầu
 //        System.out.println(numbers[0]);
@@ -15,22 +15,47 @@ public class Bai9 {
 //            sum = sum + numbers[i]; //cách rút gọn hơn là sum += numbers[i]; cũng là cộng tổng
 //        }
 //        System.out.println(sum);
-        //Tìm số lớn nhất.
-        int numberMax = 0;
-        for (int i = 0; i < numbers.length; i++) {
-            if (numbers[i] > numberMax) {
-                numberMax = numbers[i];
-            }
-        }
-        System.out.println(numberMax);
+
+//        int[] numbers = {10, 25, 7, 42, 18, 3, 31};
+//        //Tìm số lớn nhất.
+//        int numberMax = numbers[0];
+//        for (int i = 0; i < numbers.length; i++) {
+//            if (numbers[i] > numberMax) {
+//                numberMax = numbers[i];
+//            }
+//        }
+//        System.out.println(numberMax);
 
         //Tìm số bé nhất
-        int numberMin;
-        for (int i = 0; i < numbers.length; i++) {
-            if (numbers[i] > numberMax) {
-                numberMax = numbers[i];
-            }
-        }
-        System.out.println(numberMax);
+//        int numberMin = numbers[0];
+//        for (int i = 0; i < numbers.length; i++) {
+//            if (numbers[i] < numberMin) {
+//                numberMin = numbers[i];
+//            }
+//        }
+//        System.out.println(numberMin);
+//
+//        //Đếm có bao nhiêu số chẵn.
+//        int count = 0;
+//        for (int i = 0; i < numbers.length; i++) {
+//            if (numbers[i] % 2 == 0) {
+//                count++;
+//            }
+//        }
+//        System.out.println(count);
+//
+//        //Tính tổng các số lẻ
+//        int sum = 0;
+//        for (int i = 0; i < numbers.length; i++) {
+//            if (numbers[i] % 2 != 0) {
+//                sum += numbers[i];
+//            }
+//        }
+//        System.out.println(sum);
+
+        int[] numbers = {10, 25, 7, 42, 18, 3, 31};
+
+        // Bài 1: Tìm xem số 18 có nằm trong mảng không.
+
     }
 }
