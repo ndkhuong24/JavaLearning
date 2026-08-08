@@ -71,5 +71,26 @@ public class BaiTap8 {
         } else {
             System.out.println(number + " không chia hết cho 7");
         }
+
+//        Bài 7
+        for (int i = 1; i <= 100; i++) {
+            if (i % 3 == 0 && i % 5 == 0) {
+                System.out.println("FizzBuzz");
+            } else if (i % 3 == 0) {
+                System.out.println("Fizz");
+            } else if (i % 5 == 0) {
+                System.out.println("Buzz");
+            } else {
+                System.out.println(i);
+            }
+        }
+
+        //Bài 8: for lồng nhau — for trong for.
+        for (int i = 1; i <= 10; i++) { // sẽ in 10 dòng
+            for (int j = 1; j <= i; j++) { // j<=i => ở dòng 2 sẽ chỉ có 2 sao mà dùng print nên sẽ in luôn ở dòng 2 là 2 ngôi sao =>  dòng 3 sẽ có 3 ngôi sao
+                System.out.print("*");
+            }
+            System.out.println(); // cái này là để ngắt dòng chạy ở dòng 2 là 2 ngôi sao rồi sẽ xuống dòng chạy tiếp dòng 3
+        }
     }
 }
