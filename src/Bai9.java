@@ -62,7 +62,12 @@ public class Bai9 {
                 flag = true;
             }
         }
-        System.out.println("Có số 18 trong mảng");
+//        System.out.println("Có số 18 trong mảng"); // flag khong co tac dung o day
+        if (flag) {
+            System.out.println("Co so 18 trong mang");
+        } else {
+            System.out.println("Khong co so 18 trong mang");
+        }
 
         //Bài 2: Tìm vị trí (index) của số 42.
         for (int i = 0; i < numbers.length; i++) {
@@ -70,6 +75,14 @@ public class Bai9 {
         }
 
         //Bài 3: Tìm số lớn nhất thứ hai trong mảng.
-
+        int lonNhat = numbers[0];
+        int lonHai = numbers[1];
+        for (int i = 0; i < numbers.length; i++) {
+            if (numbers[i] > lonNhat) {
+                lonHai = lonNhat;
+                lonNhat = numbers[i];
+            }
+        }
+        System.out.println(lonHai);
     }
 }
