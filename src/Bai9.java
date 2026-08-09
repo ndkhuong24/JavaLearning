@@ -56,6 +56,20 @@ public class Bai9 {
         int[] numbers = {10, 25, 7, 42, 18, 3, 31};
 
         // Bài 1: Tìm xem số 18 có nằm trong mảng không.
+        boolean flag = false;
+        for (int i = 0; i < numbers.length; i++) {
+            if (numbers[i] == 18) {
+                flag = true;
+            }
+        }
+        System.out.println("Có số 18 trong mảng");
+
+        //Bài 2: Tìm vị trí (index) của số 42.
+        for (int i = 0; i < numbers.length; i++) {
+            if (numbers[i] == 42) System.out.println("Vị trí của số 42 trong mảng là: " + i);
+        }
+
+        //Bài 3: Tìm số lớn nhất thứ hai trong mảng.
 
     }
 }
