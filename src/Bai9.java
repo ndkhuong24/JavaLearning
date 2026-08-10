@@ -62,7 +62,12 @@ public class Bai9 {
                 flag = true;
             }
         }
-        System.out.println("Có số 18 trong mảng");
+        if(flag){
+            System.out.println("Có số 18 trong mảng");
+        }else{
+            System.out.println("Không có số 18 trong mảng");
+        }
+//        System.out.println("Có số 18 trong mảng"); // biến flag đang ko được sử dụng
 
         //Bài 2: Tìm vị trí (index) của số 42.
         for (int i = 0; i < numbers.length; i++) {
