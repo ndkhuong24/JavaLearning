@@ -84,5 +84,6 @@ public class Bai9 {
             }
         }
         System.out.println("Thôi tôi chịu nhé");
+        System.out.println("Thôi tôi chịu nhé");
     }
 }
