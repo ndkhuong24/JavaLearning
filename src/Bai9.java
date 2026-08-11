@@ -77,13 +77,14 @@ public class Bai9 {
         //Bài 3: Tìm số lớn nhất thứ hai trong mảng.
         int lonNhat = numbers[0];
         int lonHai = numbers[1];
-        for (int i = 0; i < numbers.length; i++) {
+        for (int i = 1; i < numbers.length; i++) {
             if (numbers[i] > lonNhat) {
                 lonHai = lonNhat;
                 lonNhat = numbers[i];
+            } else if (numbers[i] > lonHai) {
+                lonHai = numbers[i];
             }
         }
-        System.out.println("Thôi tôi chịu nhé");
-        System.out.println("Thôi tôi chịu nhé");
+        System.out.println("Số lớn thứ 2 là: " + lonHai);
     }
 }
