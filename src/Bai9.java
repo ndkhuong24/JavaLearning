@@ -83,6 +83,6 @@ public class Bai9 {
                 lonNhat = numbers[i];
             }
         }
-        System.out.println(lonHai);
+        System.out.println("Thôi tôi chịu nhé");
     }
 }
