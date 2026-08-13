@@ -8,13 +8,13 @@ public class Bai10 {
         // In độ dài của name
         System.out.println(name.length());
 
-        // In ký tự đầu tiên
+        // In ký tự đầu tiên.
         System.out.println(name.charAt(0));
 
-        // In name viết hoa
+        // In name viết hoa.
         System.out.println(name.toUpperCase());
 
-        // In name viết thường
+        // In name viết thường.
         System.out.println(name.toLowerCase());
     }
 }
