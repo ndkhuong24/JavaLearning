@@ -44,19 +44,41 @@ public class Bai11 {
 //        System.out.println(isEven(1));
 //    }
 
-    static  int[] numbers = {10, 25, 7, 42, 18, 3, 31};
+    static int[] numbers = {10, 25, 7, 42, 18, 3, 31};
 
-    public static int findMax(int[] numbersArray) {
+    static int findMax(int[] numbersArray) {
         int max = numbersArray[0];
-        for (int i = 0; i < numbersArray.length; i++) {
-            if (numbersArray[i] > max) {
-                max = numbersArray[i];
+        for (int i : numbersArray) {
+            if (i > max) {
+                max = i;
             }
         }
         return max;
     }
 
+    static int findMin(int[] numbersArray) {
+        int min = numbersArray[0];
+        for (int j : numbersArray) {
+            if (j < min) {
+                min = j;
+            }
+        }
+        return min;
+    }
+
+    static int sumOdd(int[] numbersArray) {
+        int sum = 0;
+        for (int j : numbersArray) {
+            if (j % 2 != 0) {
+                sum += j;
+            }
+        }
+        return sum;
+    }
+
     public static void main(String[] args) {
         System.out.println(findMax(numbers));
+        System.out.println(findMin(numbers));
+        System.out.println(sumOdd(numbers));
     }
 }
