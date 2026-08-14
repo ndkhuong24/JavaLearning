@@ -1,3 +1,5 @@
+package Basic;
+
 public class BaiTap8 {
     public static void main(String[] args) {
         //Bài 1 - FizzBuzz Mini

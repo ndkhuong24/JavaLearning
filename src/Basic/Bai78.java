@@ -1,3 +1,5 @@
+package Basic;
+
 public class Bai78 {
     public static void main(String[] args) {
         //Bài 7: Switch - case

@@ -1,3 +1,5 @@
+package Basic;
+
 public class Bai10 {
     public static void main(String[] args) {
         String name = "Nguyễn Duy Khương";
