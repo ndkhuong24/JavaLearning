@@ -1,4 +1,4 @@
-package Opp;
+package TutorialOOP;
 
 public class Main {
     public static void main(String[] args) {
