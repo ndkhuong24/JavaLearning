@@ -12,5 +12,5 @@ public class VehicleInheritance {
 
     public void drive() {
         System.out.println("Vehicle đang chạy");
-    }
+    } // khai báo contruction của lớp cha là drive tức là phương tiện đang chạy
 }
