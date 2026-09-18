@@ -10,6 +10,7 @@ public class CarBaiTapInheritance extends VehicleBaiTapInheritance {
 
     @Override
     public void drive() {
+        super.drive();
         System.out.println("Xe ô tô đang di chuyển");
     }
 }
